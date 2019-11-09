@@ -18,6 +18,7 @@ create table COMMIT (
 create table ACTIVATION (
     ID char(36) primary key,
     REFID char(36) not null,
+    REFTYPE int(2) not null,
     CREATETIME int(64) not null
 );
 
